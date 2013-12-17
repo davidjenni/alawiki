@@ -1,0 +1,24 @@
+{
+  "name": "cbtwiki",
+  "version": "0.0.1",
+  "description": "Wiki style user guide for CBT",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidjenni/cbtwiki"
+  },
+  "keywords": [
+    "wiki",
+    "CBT",
+    "nodejs"
+  ],
+  "author": "David Jenni",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidjenni/cbtwiki/issues"
+  },
+  "homepage": "https://github.com/davidjenni/cbtwiki"
+}
