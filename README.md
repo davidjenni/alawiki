@@ -13,13 +13,10 @@ not in npm registry yet, so install from github:
     $ npm start
 
 ## Tests
+runs jshint and mocha tests:
 
     $ npm test
 
-## Pre-checkin Tests:
-
-    $ npm jshint
-    $ npm test
 
 
 ## License
