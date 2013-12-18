@@ -1,6 +1,9 @@
 cbtwiki
 =======
 
+[![Build Status](https://travis-ci.org/davidjenni/cbtwiki.png?branch=master)](https://travis-ci.org/davidjenni/cbtwiki)
+
+
 ## Install
 not in npm registry yet, so install from github:
 
