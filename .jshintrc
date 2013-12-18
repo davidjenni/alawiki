@@ -1,0 +1,21 @@
+{
+    // see http://www.jshint.com/docs/options/
+    "curly": true,
+    "eqeqeq": true,
+    "immed": true,
+    "latedef": true,
+    "newcap": true,
+    "noarg": true,
+    "nonew": true,
+    "trailing": true,
+    "undef": true,
+    "white": true,
+    "strict": true,
+    "node": true,
+    "indent": 2,
+
+    "predef": [
+        "define",
+        "chai"
+    ]
+}
