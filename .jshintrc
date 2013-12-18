@@ -1,5 +1,7 @@
 {
     // see http://www.jshint.com/docs/options/
+    "bitwise": true,
+    "camelcase": true,
     "curly": true,
     "eqeqeq": true,
     "immed": true,
@@ -7,8 +9,10 @@
     "newcap": true,
     "noarg": true,
     "nonew": true,
+    "quotmark": "single",
     "trailing": true,
     "undef": true,
+    "unused": true,
     "white": true,
     "strict": true,
     "node": true,
