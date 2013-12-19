@@ -1,0 +1,19 @@
+node --debug lib/server.js &
+node-inspector &
+# add waits to allow node and node-inspector
+# to get started before attaching debug UI and browser
+sleep 2
+open http://localhost:8080/debug?port=5858 &
+sleep 1
+open http://localhost:3000 &
+sleep 1
+_PPID=$$
+echo PPID=$_PPID
+echo node child process ids:
+pgrep -P $_PPID
+echo "Hit enter to terminate this node debug session..."
+read
+echo "... terminating this debug session"
+echo
+pkill -P $_PPID
+

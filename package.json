@@ -3,12 +3,17 @@
   "version": "0.0.1",
   "description": "Fast, flat-file wiki in node.js",
   "main": "index.js",
+  "engines": {
+    "node": "~0.10"
+  },
+  "os": [ "darwin", "linux" ],
   "scripts": {
-    "start": "node index.js",
-    "test": "npm run jshint && npm run mocha",
-    "mocha": "mocha test/**/*test.coffee",
+    "start":  "node index.js",
+    "debug":  "bin/debug",
+    "test":   "npm run jshint && npm run mocha",
+    "mocha":  "mocha test/**/*test.coffee",
     "jshint": "node_modules/.bin/jshint lib/*.js lib/routes/*.js index.js",
-    "watch": "catw -c 'node_modules/.bin/jshint lib/*.js index.js'"
+    "watch":  "catw -c 'node_modules/.bin/jshint lib/*.js index.js'"
   },
   "repository": {
     "type": "git",
