@@ -7,7 +7,7 @@ describe 'wiki home', ->
             request(app)
                 .get('/')
                 .expect('Content-Type', /html/)
-                .expect(/CBT/)
+                .expect(/ala.wiki/)
                 .expect(200, done)
 
         it 'should have compiled style.css (from Stylus)', (done) ->

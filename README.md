@@ -1,14 +1,17 @@
-cbtwiki
+alawiki
 =======
 
-[![Build Status](https://travis-ci.org/davidjenni/cbtwiki.png?branch=master)](https://travis-ci.org/davidjenni/cbtwiki)
+Fast, flat text file based wiki in node.js
+Name is Hawaiian for: To hurry, quick, fast; see: http://wehewehe.org
+
+[![Build Status](https://travis-ci.org/davidjenni/alawiki.png?branch=master)](https://travis-ci.org/davidjenni/alawiki)
 
 
 ## Install
 not in npm registry yet, so install from github:
 
-    $ git clone https://github.com/davidjenni/cbtwiki.git
-    $ cd cbtwiki
+    $ git clone https://github.com/davidjenni/alawiki.git
+    $ cd alawiki
     $ npm install
     $ npm start
 

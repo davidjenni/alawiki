@@ -1,7 +1,7 @@
 {
-  "name": "cbtwiki",
+  "name": "alawiki",
   "version": "0.0.1",
-  "description": "Wiki style user guide for CBT",
+  "description": "Fast, flat-file wiki in node.js",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -12,19 +12,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/davidjenni/cbtwiki"
+    "url": "https://github.com/davidjenni/alawiki"
   },
   "keywords": [
     "wiki",
-    "CBT",
     "nodejs"
   ],
   "author": "David Jenni",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/davidjenni/cbtwiki/issues"
+    "url": "https://github.com/davidjenni/alawiki/issues"
   },
-  "homepage": "https://github.com/davidjenni/cbtwiki",
+  "homepage": "https://github.com/davidjenni/alawiki",
   "dependencies": {
     "marked": "~0.2.10",
     "express": "~3.4.7",
