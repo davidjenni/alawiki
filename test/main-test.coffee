@@ -1,7 +1,7 @@
 request = require 'supertest'
 app = require '../'
 
-describe 'wiki home', ->
+describe 'wiki main', ->
     describe 'GET / (main page)', ->
         it 'should respond with main landing html page', (done) ->
             request(app)
