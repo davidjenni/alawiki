@@ -12,7 +12,7 @@ describe 'wiki home', ->
 
         it 'should have compiled style.css (from Stylus)', (done) ->
             request(app)
-                .get('/stylesheets/style.css')
+                .get('/css/style.css')
                 .expect('Content-Type', /text\/css/)
                 .expect(200, done)
 
