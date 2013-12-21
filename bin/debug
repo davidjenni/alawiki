@@ -1,4 +1,4 @@
-node --debug lib/server.js &
+node --debug-brk lib/server.js &
 node-inspector &
 # add waits to allow node and node-inspector
 # to get started before attaching debug UI and browser
