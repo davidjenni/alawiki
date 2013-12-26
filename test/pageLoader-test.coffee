@@ -16,11 +16,12 @@ describe 'pageLoader', ->
           expect(err).to.exist
           done()
 
-      it 'should return html if page found', (done) ->
+      it 'should return rendered html', (done) ->
         pageLoader.loadPageAsHtml 'foo.md', (err, content) ->
           expect(err).to.not.exist
           expect(content).to.exist
-          console.log('html=' + content)
+          expect(content).to.match(/\<h2 id=/)
+          expect(content).to.match(/<code>some code<\/code>/)
           done()
 
 
